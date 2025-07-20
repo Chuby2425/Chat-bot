@@ -1,0 +1,376 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #202020;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1571765381667-3d997157cf89');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 5px 0px;
+    text-align: center;
+    padding-bottom: 0 !important;  
+    margin-bottom: 0 !important;   
+
+}
+/* Control de la imagen del banner  */
+.hero-img {
+    width: 1625px;      
+    height: 500px;      
+    display: block;    
+    border-radius: 0px;  
+}
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap');
+
+#nosotros {
+    background: linear-gradient(to right, #ffffff, #f7f7f7);
+    padding: 10px 80px;
+    font-family: 'Playfair Display', serif;
+    color: #2b2b2b;
+    margin-top: 0 !important;      
+    padding-top: 10px !important;  
+}
+
+#nosotros h3 {
+    font-size: 104px;
+    color: #111;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+    letter-spacing: 1px;
+    margin-top: 0 !important;
+}
+
+#nosotros p{
+    font-size: 21.5px;
+    text-align: center;
+}
+
+#nosotros h3::after {
+    content: "";
+    width: 70px;
+    height: 4px;
+    background-color: #ff4500;
+    display: block;
+    margin: 12px auto 0 auto;
+    border-radius: 3px;
+}
+
+.historia-contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.historia-contenido p {
+    font-size: 60px;
+    line-height: 2;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.historia-contenido p:hover {
+    transform: translateY(-4px);
+}
+
+.cita {
+    text-align: center;
+    font-style: italic;
+    font-size: 26px;
+    margin: 60px auto;
+    max-width: 850px;
+    color: #444;
+    padding: 10px 20px;
+    border-left: 5px solid #ff4500;
+    background-color: #fff3ed;
+    border-radius: 5px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.serv-img {
+    width: 1585px;      
+    height: 500px;      
+    display: block;    
+    border-radius: 0px;  
+}
+.servicios {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.servicios h3{
+    font-size: 40px;
+}
+.servicios p{
+    font-size: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-servicio {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #aaa;
+    width: 180px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-servicio img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-servicio p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/*Banner intermedio */
+
+.seccion-fondo {
+    background-image: url('https://depagmotors.com/wp-content/uploads/2024/09/imagen-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 500px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.seccion-fondo::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.seccion-fondo .contenido {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.seccion-fondo h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.seccion-fondo p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.catalogo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.catalogo h3{
+    font-size: 40px;
+}
+.catalogo p{
+    font-size: 20px;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; 
+}
+
+.item {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #aaa;
+    width: 300px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #202020;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+/*chat bot*/
+.chat-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+}
+
+
+.chat-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #e30613;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.chat-toggle:hover {
+    background-color: #c0050f;
+}
+
+.chat-toggle i {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.chat-label {
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.chat-box {
+    width: 320px;
+    height: 420px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    overflow: hidden;
+}
+
+.chat-box.hidden {
+    display: none;
+}
+
+.chat-header {
+    background-color: #202020;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    font-size: 14px;
+    background-color: #f4f4f4;
+}
+
+.chat-messages p {
+    margin: 8px 0;
+}
+
+.chat-input {
+    display: flex;
+    border-top: 1px solid #ccc;
+}
+
+.chat-input input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.chat-input button {
+    background-color: #ff4500;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}

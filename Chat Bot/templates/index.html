@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Fast riders</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Fast riders</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#catalogo">Catálogo</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="https://motos.honda.com.co/images/cms/CRF-1100L-BANNER-WEB-1.jpg" alt="Africa Twin" class= "hero-img">
+        <h2>Bienvenid@ a Fast riders</h2>
+        <p>Tu tienda y taller de confianza para todo lo relacionado con motos.</p>
+    </section>
+
+    <section id="nosotros">
+        <h3>Nuestra Historia</h3>
+        <p>
+            Fast Riders nació en 2018 como un pequeño taller de barrio en San José, 
+            Costa Rica. Fundado por un grupo de apasionados por las motos, nuestro sueño siempre 
+            fue ofrecer un lugar donde los motociclistas pudieran confiar plenamente en la calidad del 
+            servicio y en la atención personalizada. 
+
+            En Fast Riders, no solo amamos las motos: vivimos por ellas. Nuestra historia comenzó hace más de 10 años en un pequeño taller familiar en las afueras de San José, 
+            Costa Rica. Al principio, solo contábamos con un par de herramientas, 
+            una pasión inagotable por los motores y el deseo de ofrecer un servicio diferente, más cercano, más humano.
+        </p>
+        <p>
+            Lo que empezó como un servicio básico de reparación se convirtió rápidamente en un punto de encuentro para motociclistas 
+            de todos los estilos. Desde los que buscaban su primer casco hasta los que personalizaban sus motos para competir en rallies extremos, 
+            todos encontraban en Fast Riders algo más que una tienda: encontraban una comunidad.
+
+            Nuestra filosofía siempre ha sido simple: la confianza se gana con cada detalle. Por eso, nos esforzamos no solo en reparar y mantener motos, sino en educar a nuestros clientes,
+            en recomendar solo lo necesario y en mantener una ética clara en cada trabajo. Con el tiempo, el boca a boca nos convirtió en una referencia local. Y cuando llegó la oportunidad de abrir nuestra tienda en línea, supimos que era el momento de acelerar.
+        </p>
+
+    </section>
+    
+    <section class="banner-intermedio">
+        <img src="https://motos.honda.com.co/images/cms/slider-home/Banner_ProHonda_FULL_1920x692.jpg" alt="Africa Twin" class="serv-img">
+    </section>
+    <section class="servicios">
+        
+        <h3>Servicios</h3>
+        <p>En Fast Riders nos especializamos en brindarte un servicio completo para que tu moto siempre esté lista para rodar. Nuestro equipo técnico trabaja con pasión, precisión y experiencia.</p>
+        
+        <div class="galeria">
+            <div class="card-servicio">
+                <p>Mantenimiento preventivo</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPEFF58UxIn9CPjeeSpf5X64fy1mSZOMXSEw&s" alt="Mantenimiento preventivo">
+            </div>
+
+            <div class="card-servicio">
+                <p>Repuestos</p>
+                <img src="https://static.vecteezy.com/system/resources/previews/006/097/901/non_2x/gear-and-chain-logo-vehicle-spare-parts-symbol-design-inspiration-vector.jpg" alt="Repuestos">                     
+           </div>
+            <div class="card-servicio">
+                 <p>Accesorios</p>
+                 <img src="https://previews.123rf.com/images/ssstocker/ssstocker1609/ssstocker160900139/63003766-motorcycles-accessories-mono-color-motorbike-label-vector-illustration.jpg" alt="Accesorios">        
+            </div>
+            <div class="card-servicio">
+                <p>Detailing</p>
+                <img src="https://i.pinimg.com/736x/a4/8b/84/a48b844ec6858bb527fa2ae003f7ceb2.jpg" alt="Detailing">
+            </div>
+            <div class="card-servicio">
+                <p>Pulido</p>
+                <img src="https://i.pinimg.com/474x/c2/66/23/c26623a7d0e2009d182d5fd70b8869ce.jpg" alt="Pulido">
+            </div>
+            <div class="card-servicio">
+                <p>Pintura</p>
+                <img src="https://previews.123rf.com/images/charodeika/charodeika1703/charodeika170300029/73551152-universal-minimal-black-spray-paint-line-icon-on-white-background.jpg" alt="Pintura">
+            </div>
+            <div class="card-servicio">
+                <p>Luces</p>
+                <img src="https://media.istockphoto.com/id/1067934928/es/vector/moto-luz-linterna-vector-l%C3%ADnea-icono-s%C3%ADmbolo-pictograma-signo-fondo-geom%C3%A9trico-abstracto.jpg?s=612x612&w=0&k=20&c=SF9cB5eroSlI7fqVnKcaOeMnDhcIFt5RlDOuMYWdaS0=" alt="Luces">
+            </div>
+            <div class="card-servicio">
+                <p>Modificaciones</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpj28p6-vM7Oamul6GQMkM5M6-ElkEJNebH0VsGWiE3PbfRdl08kg4z2fNgfKnSZe3BFg" alt="Modificaciones">
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion-fondo">
+        <div class="contenido">
+            <h2>Financia tu Moto Honda</h2>
+            <p>Estamos para ofrecerte todo el apoyo que necesitas para obtener tu nueva motocicleta Honda.</p>
+            <a href="#" class="boton">Financia tu moto</a>
+            </div>
+    </section>
+
+    <section id="catalogo" class="catalogo">
+        <h3>Catálogo</h3>
+        <p>Descubre nuestra gama de productos cuidadosamente seleccionados para los amantes de las motos. Cada artículo refleja nuestra pasión por la calidad, el rendimiento y el estilo.</p>
+        
+        <div class="galeria">
+            <div class="item">
+                <img src="https://motos0km.com.ar/models/honda-crf-250-r-gallery-df1400-020181102221856.jpg" alt="Moto 1">
+                <p>CRF 250 R</p>
+            </div>
+            <div class="item">
+                <img src="https://www.motoplanete.com/honda/Honda-CB-650-R-2023_380px.webp" alt="Moto 2">
+                <p>CB 650R</p>
+            </div>
+            <div class="item">
+                <img src="https://crmotos.com/wp-content/uploads/2023/07/HONDA_X-ADV_0000s_0006_443770_24YM_X-ADV.jpg" alt="Moto 3">
+                <p>Honda X-ADV 750</p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="chat-widget">
+    <button class="chat-toggle">
+        <i class="fas fa-robot" ></i>
+        <span class="chat-text">Chat bot
+            
+        </span>
+    </button>
+    <div class="chat-box hidden">
+        <div class="chat-header">
+            <h4>Asistente Fast Riders</h4>
+            <button class="close-chat">&times;</button>
+        </div>
+        <div class="chat-messages" id="chat-messages"></div>
+            <form class="chat-input" id="chat-form">
+            <input type="text" id="user-input" placeholder="Escribí tu consulta..." autocomplete="off" required>
+            <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+
+    <footer id="contacto">
+        <p>📞 6396-9171 | ✉️ contacto@fastriders.com | 📍 San José, Costa Rica</p>
+        <p>&copy; 2025 Fast riders</p>
+    </footer>
+
+
+    <script>
+        document.querySelector('.chat-toggle').addEventListener('click', () => {
+            document.querySelector('.chat-box').classList.toggle('hidden');
+        });
+
+        document.querySelector('.close-chat').addEventListener('click', () => {
+            document.querySelector('.chat-box').classList.add('hidden');
+        });
+
+        document.getElementById('chat-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const input = document.getElementById('user-input');
+            const mensaje = input.value.trim();
+            if (!mensaje) return;
+
+            const chat = document.getElementById('chat-messages');
+            chat.innerHTML += `<p><strong>Tú:</strong> ${mensaje}</p>`;
+            input.value = '';
+
+            fetch('/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ mensaje })
+            })
+            .then(res => res.json())
+            .then(data => {
+            chat.innerHTML += `<p><strong>Bot:</strong> ${data.respuesta}</p>`;
+            chat.scrollTop = chat.scrollHeight;
+        });
+    });</script>
+</body>
+</html>
